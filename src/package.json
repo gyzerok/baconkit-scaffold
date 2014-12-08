@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "description": "MyApp description",
   "main": "app://host/index.html",
-  "author": "",
-  "license": "ISC",
-  "private": true,
   "node-main": "index.js",
+  "author": "Fedor Nezhivoy <gyzerok@gmail.com>",
+  "license": "MIT",
+  "private": true,
   "window": {
     "title": "MyApp",
     "toolbar": true,

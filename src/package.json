@@ -19,5 +19,9 @@
     "position": "center",
     "show": false
   },
-  "env": "#env"
+  "env": "#env",
+
+  "dependencies": {
+    "baconkit": "git+https://github.com/gyzerok/baconkit.git#master"
+  }
 }

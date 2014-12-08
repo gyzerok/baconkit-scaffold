@@ -1,7 +1,8 @@
 'use strict';
 
+var BaconKit = require('baconkit');
+
 exports.start = function () {
-    var BaconKit = require('./baconkit');
-    var App = BaconKit(window);
+    var App = new BaconKit.Application(window);
     App.start();
 };
